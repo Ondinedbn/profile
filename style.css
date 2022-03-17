@@ -3,6 +3,7 @@
 body {
   background-color:beige;
   font-family:'Open Sans', sans-serif;
+  color: rgb(151, 219, 174);
 }
 
 h1, h2 {
@@ -13,12 +14,15 @@ h1, h2 {
 }
 
 a {
-  color: cornflowerblue;
   text-decoration: dotted;
+  margin-top: 10px;
+  font-weight: bolder;
+  color:rgb(244, 187, 187)
 }
 
 a:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(151, 219, 174);
+  color: white
 }
 
 .container {
@@ -37,13 +41,14 @@ a:hover {
 .card-white {
   background:white;
   padding: 30px;
+  margin-top: 20px;
   border: 1px solid lightgrey;
   box-shadow: 5px 5px 3px wheat;
   border-radius: 10px;
 }
 
 .button-blue {
-  background-color: rgb(127, 246, 255);
+  background-color: white(52, 127, 133);
   border: 1px solid lightblue;
   border-radius: 4px;
   padding: 10px
@@ -54,6 +59,24 @@ a:hover {
   padding: 0px 20px;
   list-style: none;
   padding-left: 0px;
+}
+.fa-linkedin-in {
+  border: 1px solid rgb(151, 219, 174);
+  padding: 10px;
+  border-radius: 4px;
+}
+.fa-linkedin-in:hover {
+  background-color: rgb(151, 219, 174);
+}
+
+.fa-facebook-f {
+  border: 1px solid rgb(151, 219, 174);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.fa-facebook-f:hover {
+  background-color:rgb(151, 219, 174);
 }
 
 @media (max-width: 960px) {
